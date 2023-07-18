@@ -1,0 +1,62 @@
+header{
+    height: 100vh;
+    border: .0625rem solid #ccc;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+nav h1 {
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding: .625rem;
+    border-bottom: .0625rem solid #ccc;
+}
+
+nav ul li {
+    border: .0625rem solid #ccc;
+    padding: .625rem;
+    color: black;
+}
+
+body {
+    display: flex;
+}
+
+.main_section {
+    display: contents;
+}
+
+.inform {
+   padding: .625rem 1.25rem  .625rem 2.5rem;
+    max-width: 75rem;
+}
+
+.intro h2 {
+    border-bottom: .0625rem solid #ccc;
+    font-size: 2.1875rem;
+    margin-bottom: .625rem;
+}
+
+.intro ul li {
+    margin-left: 1.25rem;
+    margin-top: .625rem;
+}
+
+.intro {
+    margin-bottom: 3.125rem;
+}
+
+@media (max-width:48rem){
+    body{
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+
+    header {
+        height: 50vh;
+    }
+
+
+
+}
